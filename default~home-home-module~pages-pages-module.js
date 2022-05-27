@@ -1314,7 +1314,7 @@ let AuthService = class AuthService {
     signIn(form) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
             try {
-                const res_u = yield this._apiMongo.filter(src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].COLLECTION.party, src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].TABLE_SIS.employee, { /* 'data.email': form.username.trim(), 'data.password': form.pass  */});
+                const res_u = yield this._apiMongo.filter(src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].COLLECTION.party, src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].TABLE_SIS.employee, { 'data.email': form.username.trim(), 'data.password': form.pass });
                 console.log('RES', res_u);
                 if (this._fun.isEmpty(res_u.result)) {
                     yield this._fun.alertError('No se encontro registro con usuario y contraseña ingresados');
