@@ -24,7 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 const environment = {
     production: false,
-    node: 'http://34.229.8.55',
+    node: 'http://34.192.120.132',
     url: 'http://34.192.120.132:8080/',
     TOKEN_KEY: 'user-coopecan',
     /* VARIABLES SMART CONTRACT */
